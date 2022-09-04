@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# yazı komutu
+
+xdotool type --delay 150 Hoşgeldin && xdotool key space && xdotool type --delay 150 SHL. && xdotool key space && xdotool type --delay 150 Sistemi && xdotool key space && xdotool type --delay 150 Hazırlıyorum.
+
+#güncelleme komutu
+
+sudo apt-get update ; sudo apt-get -y upgrade
+
+clear
+
+xdotool type --delay 100 Güvenlik && xdotool key space && xdotool type --delay 120 Taraması && xdotool key space && xdotool type --delay 120 Başlatılıyor.
+
+
+xdotool key space && xdotool type --delay 150 Biraz  && xdotool key space && xdotool type --delay 150 Bekleteceğim && xdotool key space && xdotool type --delay 200 SH
+
+clear
+
+rkhunter --check
+
+xdotool key space && xdotool type --delay 150 İşlemler  && xdotool key space && xdotool type --delay 150 Tamamlandı && xdotool key space && xdotool type --delay 200 ROOTSHL
